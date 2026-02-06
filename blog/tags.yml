@@ -1,0 +1,217 @@
+linux:
+  label: Linux
+  permalink: /linux
+  description: Articles and guides related to the Linux operating system, including tips and tools for Linux users.
+
+ideapad:
+  label: Ideapad
+  permalink: /ideapad
+  description: Insights and solutions for Lenovo Ideapad devices, focusing on troubleshooting and customization.
+
+energy-management:
+  label: Energy Management
+  permalink: /energy-management
+  description: Tools and techniques to manage energy consumption and battery life in electronic devices.
+
+conservation-mode:
+  label: Conservation Mode
+  permalink: /conservation-mode
+  description: Tips and tricks to enable and manage conservation mode to extend battery life on laptops.
+
+lenovo:
+  label: Lenovo
+  permalink: /lenovo
+  description: Everything related to Lenovo products, including software solutions and hardware optimizations.
+
+
+qt:
+  label: Qt
+  permalink: /qt
+  description: Articles and tutorials on the Qt framework, including GUI development and cross-platform applications.
+
+python:
+  label: Python
+  permalink: /python
+  description: Guides, tutorials, and tips on Python programming for various applications and use cases.
+
+beautifulsoup:
+  label: BeautifulSoup
+  permalink: /beautifulsoup
+  description: Articles focused on web scraping with BeautifulSoup, a Python library for parsing HTML and XML.
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides and educational content to help you learn new skills and concepts.
+
+context-managers:
+  label: Context Managers
+  permalink: /context-managers
+  description: Learn about Python’s context managers, including how to create and use them in your projects.
+
+nginx:
+  label: Nginx
+  permalink: /nginx
+  description: Detailed guides on configuring and optimizing Nginx as a web server, reverse proxy, and load balancer.
+
+web-server:
+  label: Web Server
+  permalink: /web-server
+  description: Topics related to web server setup, configuration, and optimization for high performance.
+
+proxy:
+  label: Proxy
+  permalink: /proxy
+  description: Understanding and implementing proxies in web applications for enhanced security and load management.
+
+load-balancing:
+  label: Load Balancing
+  permalink: /load-balancing
+  description: Techniques and tools for distributing network or application traffic across multiple servers.
+
+http-caching:
+  label: HTTP Caching
+  permalink: /http-caching
+  description: Strategies to cache HTTP responses for faster load times and reduced server load.
+
+crypt-arithmetic:
+  label: Crypt Arithmetic
+  permalink: /crypt-arithmetic
+  description: Explore the fascinating world of crypt arithmetic problems and their solutions using algorithms.
+
+genetic-algorithm:
+  label: Genetic Algorithm
+  permalink: /genetic-algorithm
+  description: Learn about genetic algorithms, their applications, and how they can solve complex problems.
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Articles and tutorials on artificial intelligence, covering algorithms, applications, and industry trends.
+google:
+  label: Google
+  permalink: /google
+  description: Discussions and insights on Google’s products, services, and overall impact on technology.
+
+google-graveyard:
+  label: Google Graveyard
+  permalink: /google-graveyard
+  description: An exploration of Google’s abandoned projects and their impact on the tech world.
+
+flutter:
+  label: Flutter
+  permalink: /flutter
+  description: Topics related to Flutter, Google’s UI toolkit for building cross-platform applications.
+
+tech-trends:
+  label: Tech Trends
+  permalink: /tech-trends
+  description: Insights and analysis on the latest trends and shifts in the technology industry.
+
+data-preprocessing:
+  label: Data Preprocessing
+  permalink: /data-preprocessing
+  description: Techniques and steps to prepare raw data for analysis and machine learning.
+
+machine-learning:
+  label: Machine Learning
+  permalink: /machine-learning
+  description: Topics related to the development and application of machine learning algorithms.
+
+data-science:
+  label: Data Science
+  permalink: /data-science
+  description: Insights and techniques used in the field of data science for analysis and modeling.
+
+
+feature-scaling:
+  label: Feature Scaling
+  permalink: /feature-scaling
+  description: Methods to normalize and standardize data features for improved model performance.
+
+one-hot-encoding:
+  label: One Hot Encoding
+  permalink: /one-hot-encoding
+  description: A technique to convert categorical variables into a format suitable for machine learning.
+
+data-cleaning:
+  label: Data Cleaning
+  permalink: /data-cleaning
+  description: Methods for cleaning and preparing datasets to ensure quality data for analysis.
+
+training-testing-set:
+  label: Training and Testing Set
+  permalink: /training-testing-set
+  description: Concepts and practices for splitting data into training and testing sets for model validation.
+
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: Concepts, techniques, and best practices in software development.
+
+best-practices:
+  label: Best Practices
+  permalink: /best-practices
+  description: Guidelines and practices for writing clean, efficient, and maintainable code.
+
+docstrings:
+  label: Docstrings
+  permalink: /docstrings
+  description: Documentation strings in Python to describe the purpose and usage of functions, classes, and modules.
+
+DRY:
+  label: DRY (Don’t Repeat Yourself)
+  permalink: /DRY
+  description: A software development principle that emphasizes reducing redundancy in code.
+
+DOT:
+  label: DOT (Do One Thing)
+  permalink: /DOT
+  description: A principle in software design advocating for keeping functions focused on a single responsibility.
+
+coding-standards:
+  label: Coding Standards
+  permalink: /coding-standards
+  description: Rules and guidelines for writing consistent and high-quality code.
+
+code-quality:
+  label: Code Quality
+  permalink: /code-quality
+  description: Techniques and practices to ensure that code is clean, efficient, and maintainable.
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript programming language concepts, including ES6+ features, frameworks, and best practices.
+
+
+promises:
+  label: Promises
+  permalink: /promises
+  description: A guide to understanding and using Promises for handling asynchronous operations in JavaScript.
+
+asynchronous:
+  label: Asynchronous
+  permalink: /asynchronous
+  description: Understanding asynchronous programming, including Promises, async/await, and event-driven architecture.
+
+synchronous:
+  label: Synchronous
+  permalink: /synchronous
+  description: Synchronous programming concepts and how they differ from asynchronous approaches.
+
+fetch-api:
+  label: Fetch API
+  permalink: /fetch-api
+  description: Using the Fetch API for making network requests in JavaScript and handling responses asynchronously.
+
+callbacks:
+  label: Callbacks
+  permalink: /callbacks
+  description: Using callback functions for asynchronous operations in JavaScript, including common patterns and pitfalls.
+
+promise-chaining:
+  label: Promise Chaining
+  permalink: /promise-chaining
+  description: Techniques for chaining multiple asynchronous operations using Promises in JavaScript.
