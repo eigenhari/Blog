@@ -1,0 +1,68 @@
+{
+  "permalink": "/mathematical-modeling-francis-turbine",
+  "source": "@site/blog/2024/2024-10-19 francis turbine.md",
+  "title": "Mathematical modeling of Francis turbine",
+  "description": "The Francis turbine is the most popular hydro turbine due to its ability to work well over a broad range and its high efficiency. Its important part, the runner, is connected to the common shaft of the electrical generator. Thus, the design of the runner plays a vital role in the operation of the machine. We aim to model the blade profile and runner of the Francis turbine. Among the many design approaches (Direct method, indirect method, Bovet method, and curve fitting), the Bovet method has been used to obtain the blade profile as it is found that this method provides the blade profile in the most efficient way. Based on the given input parameters: net head, discharge rate, and speed of the runner, we calculated the inlet and outlet parameters. The implementation of the Bovet Method is facilitated through computational tools, particularly MATLAB. We then plot the Meridional View, Perpendicular view, Axial view, and 3D design of the runner blade. The finding of this study helps to contribute to the design of runners by a systematic approach to the calculation of its parameters. we found the key properties of turbine hari",
+  "date": "2024-10-19T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Modeling",
+      "permalink": "/tags/modeling"
+    },
+    {
+      "inline": true,
+      "label": "MATLAB",
+      "permalink": "/tags/matlab"
+    },
+    {
+      "inline": true,
+      "label": "Math",
+      "permalink": "/tags/math"
+    },
+    {
+      "inline": true,
+      "label": "optimization",
+      "permalink": "/tags/optimization"
+    },
+    {
+      "inline": false,
+      "label": "Tutorial",
+      "permalink": "/tags/tutorial",
+      "description": "Step-by-step guides and educational content to help you learn new skills and concepts."
+    }
+  ],
+  "readingTime": 6.925,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/hpg1164",
+      "imageURL": "https://github.com/hpg1164/hpg1164.github.io/raw/main/assets/images/hari.JPG",
+      "key": "hpg1164",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "mathematical-modeling-francis-turbine",
+    "title": "Mathematical modeling of Francis turbine",
+    "authors": "hpg1164",
+    "tags": [
+      "Modeling",
+      "MATLAB",
+      "Math",
+      "optimization",
+      "tutorial"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+    "permalink": "/fully-connected-neural-network-heat-equation"
+  },
+  "nextItem": {
+    "title": " lie group",
+    "permalink": "/2024/10/19/2024/ lie group"
+  }
+}

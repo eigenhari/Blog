@@ -1,5 +1,5 @@
 ---
-slug: hariprasadgajurel
+slug: mathematical-modeling-francis-turbine
 title: Mathematical modeling of Francis turbine
 authors:
   hpg1164

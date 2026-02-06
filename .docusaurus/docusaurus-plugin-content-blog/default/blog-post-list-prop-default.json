@@ -1,0 +1,23 @@
+{
+  "title": "All posts",
+  "items": [
+    {
+      "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+      "permalink": "/fully-connected-neural-network-heat-equation",
+      "unlisted": false,
+      "date": "2024-11-06T00:00:00.000Z"
+    },
+    {
+      "title": "Mathematical modeling of Francis turbine",
+      "permalink": "/mathematical-modeling-francis-turbine",
+      "unlisted": false,
+      "date": "2024-10-19T00:00:00.000Z"
+    },
+    {
+      "title": " lie group",
+      "permalink": "/2024/10/19/2024/ lie group",
+      "unlisted": false,
+      "date": "2024-10-19T00:00:00.000Z"
+    }
+  ]
+}

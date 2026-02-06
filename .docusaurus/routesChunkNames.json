@@ -1,0 +1,274 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/2024/10/19/2024/ lie group-38e": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "content": "content---2024-10-19-2024-lie-group-0-c-6-822"
+  },
+  "/archive-51a": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "__props": "__props---archiveb-26-52e"
+  },
+  "/authors-498": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "__props": "__props---authors-3-f-9-914"
+  },
+  "/fully-connected-neural-network-heat-equation-06e": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "content": "content---fully-connected-neural-network-heat-equation-2-a-4-342"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/mathematical-modeling-francis-turbine-d9d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "content": "content---mathematical-modeling-francis-turbine-1-d-3-030"
+  },
+  "/tags-626": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "__props": "__props---tagsc-2-a-bff"
+  },
+  "/tags/machine-learning-09c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      }
+    ],
+    "__props": "__props---tags-machine-learning-407-8d9"
+  },
+  "/tags/math-708": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-math-9-dc-54d"
+  },
+  "/tags/matlab-505": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-matlabd-27-08d"
+  },
+  "/tags/modeling-04e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-modeling-9-d-4-f3a"
+  },
+  "/tags/optimization-cc3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-optimizatione-30-2c7"
+  },
+  "/tags/pde-d84": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      }
+    ],
+    "__props": "__props---tags-pde-4-fa-30a"
+  },
+  "/tags/pinns-2ba": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      }
+    ],
+    "__props": "__props---tags-pinns-1-e-2-0ef"
+  },
+  "/tags/python-f86": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      }
+    ],
+    "__props": "__props---tags-python-74-c-d9a"
+  },
+  "/tags/tutorial-e78": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      },
+      {
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-tutorial-1-aa-f23"
+  },
+  "/docs-646": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-a10": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-117": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/intro-44d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/-300": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learningbf-6-9b1"
+      },
+      {
+        "content": "content---tags-mathaea-d6a"
+      },
+      {
+        "content": "content---d-86-a01"
+      }
+    ],
+    "__props": "__props---1-a-1-4cc"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}
