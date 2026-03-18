@@ -71,6 +71,17 @@
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "__props": "__props---authors-3-f-9-914"
   },
+  "/Ball and beam balance-5c9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "content": "content---ball-and-beam-balancec-99-f1b"
+  },
   "/fully-connected-neural-network-heat-equation-06e": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -108,13 +119,16 @@
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "__props": "__props---tagsc-2-a-bff"
   },
-  "/tags/machine-learning-09c": {
+  "/tags/machine-learning-eaa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
+      },
       {
         "content": "content---tags-machine-learningbf-6-9b1"
       }
@@ -173,46 +187,55 @@
     ],
     "__props": "__props---tags-optimizatione-30-2c7"
   },
-  "/tags/pde-d84": {
+  "/tags/pde-b96": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
+      },
       {
         "content": "content---tags-machine-learningbf-6-9b1"
       }
     ],
     "__props": "__props---tags-pde-4-fa-30a"
   },
-  "/tags/pinns-2ba": {
+  "/tags/pinns-610": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
+      },
       {
         "content": "content---tags-machine-learningbf-6-9b1"
       }
     ],
     "__props": "__props---tags-pinns-1-e-2-0ef"
   },
-  "/tags/python-f86": {
+  "/tags/python-adc": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
+      },
       {
         "content": "content---tags-machine-learningbf-6-9b1"
       }
     ],
     "__props": "__props---tags-python-74-c-d9a"
   },
-  "/tags/tutorial-e78": {
+  "/tags/turbine-871": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
@@ -220,10 +243,23 @@
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
       {
-        "content": "content---tags-machine-learningbf-6-9b1"
+        "content": "content---tags-mathaea-d6a"
+      }
+    ],
+    "__props": "__props---tags-turbine-94-a-a17"
+  },
+  "/tags/tutorial-dd2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
       },
       {
-        "content": "content---tags-mathaea-d6a"
+        "content": "content---tags-machine-learningbf-6-9b1"
       }
     ],
     "__props": "__props---tags-tutorial-1-aa-f23"
@@ -245,13 +281,16 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/-300": {
+  "/-417": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-machine-learning-481-fa8"
+      },
       {
         "content": "content---tags-machine-learningbf-6-9b1"
       },

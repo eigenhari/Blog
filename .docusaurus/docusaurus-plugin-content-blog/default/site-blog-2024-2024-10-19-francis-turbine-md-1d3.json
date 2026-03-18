@@ -26,13 +26,12 @@
       "permalink": "/tags/optimization"
     },
     {
-      "inline": false,
-      "label": "Tutorial",
-      "permalink": "/tags/tutorial",
-      "description": "Step-by-step guides and educational content to help you learn new skills and concepts."
+      "inline": true,
+      "label": "turbine",
+      "permalink": "/tags/turbine"
     }
   ],
-  "readingTime": 6.925,
+  "readingTime": 1.965,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -53,7 +52,7 @@
       "MATLAB",
       "Math",
       "optimization",
-      "tutorial"
+      "turbine"
     ]
   },
   "unlisted": false,

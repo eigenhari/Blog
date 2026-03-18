@@ -33,7 +33,7 @@
       "description": "Step-by-step guides and educational content to help you learn new skills and concepts."
     }
   ],
-  "readingTime": 5.57,
+  "readingTime": 5.565,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -58,6 +58,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Comapring ball beam balance with simulation and real hardware",
+    "permalink": "/Ball and beam balance"
+  },
   "nextItem": {
     "title": "Mathematical modeling of Francis turbine",
     "permalink": "/mathematical-modeling-francis-turbine"

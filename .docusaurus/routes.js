@@ -53,6 +53,11 @@ export default [
     exact: true
   },
   {
+    path: '/Ball and beam balance',
+    component: ComponentCreator('/Ball and beam balance', '5c9'),
+    exact: true
+  },
+  {
     path: '/fully-connected-neural-network-heat-equation',
     component: ComponentCreator('/fully-connected-neural-network-heat-equation', '06e'),
     exact: true
@@ -74,7 +79,7 @@ export default [
   },
   {
     path: '/tags/machine-learning',
-    component: ComponentCreator('/tags/machine-learning', '09c'),
+    component: ComponentCreator('/tags/machine-learning', 'eaa'),
     exact: true
   },
   {
@@ -99,22 +104,27 @@ export default [
   },
   {
     path: '/tags/pde',
-    component: ComponentCreator('/tags/pde', 'd84'),
+    component: ComponentCreator('/tags/pde', 'b96'),
     exact: true
   },
   {
     path: '/tags/pinns',
-    component: ComponentCreator('/tags/pinns', '2ba'),
+    component: ComponentCreator('/tags/pinns', '610'),
     exact: true
   },
   {
     path: '/tags/python',
-    component: ComponentCreator('/tags/python', 'f86'),
+    component: ComponentCreator('/tags/python', 'adc'),
+    exact: true
+  },
+  {
+    path: '/tags/turbine',
+    component: ComponentCreator('/tags/turbine', '871'),
     exact: true
   },
   {
     path: '/tags/tutorial',
-    component: ComponentCreator('/tags/tutorial', 'e78'),
+    component: ComponentCreator('/tags/tutorial', 'dd2'),
     exact: true
   },
   {
@@ -143,7 +153,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '300'),
+    component: ComponentCreator('/', '417'),
     exact: true
   },
   {

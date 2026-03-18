@@ -1,0 +1,65 @@
+{
+  "permalink": "/ball-beam-balance-control-simulation",
+  "source": "@site/blog/2026/2026-02-08-ball-beam-balance.md",
+  "title": "Design and Simulation of Ball and Beam Balance System",
+  "description": "The Ball and Beam Balance system is a classic experiment in control systems engineering. It involves a ball rolling on a beam that can be tilted by an actuator. The goal is to control the position of the ball by adjusting the angle of the beam.",
+  "date": "2026-02-08T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Control Systems",
+      "permalink": "/tags/control-systems"
+    },
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Simulation",
+      "permalink": "/tags/simulation"
+    },
+    {
+      "inline": true,
+      "label": "React",
+      "permalink": "/tags/react"
+    },
+    {
+      "inline": true,
+      "label": "Physics",
+      "permalink": "/tags/physics"
+    }
+  ],
+  "readingTime": 1.595,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/hpg1164",
+      "imageURL": "https://github.com/hpg1164/hpg1164.github.io/raw/main/assets/images/hari.JPG",
+      "key": "hpg1164",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "ball-beam-balance-control-simulation",
+    "title": "Design and Simulation of Ball and Beam Balance System",
+    "authors": [
+      "hpg1164"
+    ],
+    "tags": [
+      "Control Systems",
+      "Robotics",
+      "Simulation",
+      "React",
+      "Physics"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+    "permalink": "/fully-connected-neural-network-heat-equation"
+  }
+}

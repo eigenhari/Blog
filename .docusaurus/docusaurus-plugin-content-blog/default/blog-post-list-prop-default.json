@@ -2,6 +2,12 @@
   "title": "All posts",
   "items": [
     {
+      "title": "Comapring ball beam balance with simulation and real hardware",
+      "permalink": "/Ball and beam balance",
+      "unlisted": false,
+      "date": "2026-02-08T00:00:00.000Z"
+    },
+    {
       "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
       "permalink": "/fully-connected-neural-network-heat-equation",
       "unlisted": false,

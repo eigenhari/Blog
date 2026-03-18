@@ -1,0 +1,69 @@
+{
+  "permalink": "/fully-connected-neural-network-heat-equation",
+  "source": "@site/blog/2026/2024-11-06.md",
+  "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+  "description": "This article highlights the shift from isogeometric analysis and finite difference methods to Physics-Informed Neural Networks (PINNs) for solving PDEs. Introduced by Prof. Karniadakis in 2019, PINNs approximate solutions by embedding neural networks directly into PDE formulations, using residuals of the equation and boundary conditions as the loss function.",
+  "date": "2024-11-06T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Machine Learning",
+      "permalink": "/tags/machine-learning"
+    },
+    {
+      "inline": false,
+      "label": "Python",
+      "permalink": "/tags/python",
+      "description": "Guides, tutorials, and tips on Python programming for various applications and use cases."
+    },
+    {
+      "inline": true,
+      "label": "PINNS",
+      "permalink": "/tags/pinns"
+    },
+    {
+      "inline": true,
+      "label": "PDE",
+      "permalink": "/tags/pde"
+    },
+    {
+      "inline": false,
+      "label": "Tutorial",
+      "permalink": "/tags/tutorial",
+      "description": "Step-by-step guides and educational content to help you learn new skills and concepts."
+    }
+  ],
+  "readingTime": 5.57,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/hpg1164",
+      "imageURL": "https://github.com/hpg1164/hpg1164.github.io/raw/main/assets/images/hari.JPG",
+      "key": "hpg1164",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "fully-connected-neural-network-heat-equation",
+    "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+    "authors": "hpg1164",
+    "tags": [
+      "Machine Learning",
+      "python",
+      "PINNS",
+      "PDE",
+      "tutorial"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+    "permalink": "/fully-connected-neural-network-heat-equation"
+  },
+  "nextItem": {
+    "title": "Mathematical modeling of Francis turbine",
+    "permalink": "/mathematical-modeling-francis-turbine"
+  }
+}
