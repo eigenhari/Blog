@@ -2,6 +2,12 @@
   "title": "All posts",
   "items": [
     {
+      "title": "Passivity & Symmetry in mechnical system for robotics.",
+      "permalink": "/Geometric controlled reduction",
+      "unlisted": false,
+      "date": "2026-04-20T00:00:00.000Z"
+    },
+    {
       "title": "Comapring ball beam balance with simulation and real hardware",
       "permalink": "/Ball and beam balance",
       "unlisted": false,

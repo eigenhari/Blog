@@ -63,6 +63,11 @@ export default [
     exact: true
   },
   {
+    path: '/Geometric controlled reduction',
+    component: ComponentCreator('/Geometric controlled reduction', '6a6'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
@@ -78,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/tags/geometrics-reduction-control',
+    component: ComponentCreator('/tags/geometrics-reduction-control', 'ec4'),
+    exact: true
+  },
+  {
     path: '/tags/machine-learning',
     component: ComponentCreator('/tags/machine-learning', 'eaa'),
     exact: true
@@ -88,8 +98,18 @@ export default [
     exact: true
   },
   {
+    path: '/tags/mathematics',
+    component: ComponentCreator('/tags/mathematics', 'c97'),
+    exact: true
+  },
+  {
     path: '/tags/matlab',
     component: ComponentCreator('/tags/matlab', '505'),
+    exact: true
+  },
+  {
+    path: '/tags/mechanics',
+    component: ComponentCreator('/tags/mechanics', '5a4'),
     exact: true
   },
   {
@@ -115,6 +135,11 @@ export default [
   {
     path: '/tags/python',
     component: ComponentCreator('/tags/python', 'adc'),
+    exact: true
+  },
+  {
+    path: '/tags/robotics',
+    component: ComponentCreator('/tags/robotics', '2e1'),
     exact: true
   },
   {
@@ -153,7 +178,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '417'),
+    component: ComponentCreator('/', '9d6'),
     exact: true
   },
   {

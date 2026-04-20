@@ -1,0 +1,57 @@
+{
+  "permalink": "/Geometric controlled reduction",
+  "source": "@site/blog/2026/2026-04-20.md",
+  "title": "Passivity & Symmetry in mechnical system for robotics.",
+  "description": "This article highlights the shift from isogeometric analysis and finite difference methods to Physics-Informed Neural Networks (PINNs) for solving PDEs. Introduced by Prof. Karniadakis in 2019, PINNs approximate solutions by embedding neural networks directly into PDE formulations, using residuals of the equation and boundary conditions as the loss function.",
+  "date": "2026-04-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Mathematics",
+      "permalink": "/tags/mathematics"
+    },
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Mechanics",
+      "permalink": "/tags/mechanics"
+    },
+    {
+      "inline": true,
+      "label": "Geometrics reduction control",
+      "permalink": "/tags/geometrics-reduction-control"
+    }
+  ],
+  "readingTime": 5.565,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "Geometric controlled reduction",
+    "title": "Passivity & Symmetry in mechnical system for robotics.",
+    "authors": "eigenhari",
+    "tags": [
+      "Mathematics",
+      "Robotics",
+      "Mechanics",
+      "Geometrics reduction control"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Comapring ball beam balance with simulation and real hardware",
+    "permalink": "/Ball and beam balance"
+  }
+}

@@ -39,16 +39,16 @@
     {
       "name": "Hari Prasad Gajurel",
       "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
-      "url": "https://github.com/hpg1164",
-      "imageURL": "https://github.com/hpg1164/hpg1164.github.io/raw/main/assets/images/hari.JPG",
-      "key": "hpg1164",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
       "page": null
     }
   ],
   "frontMatter": {
     "slug": "fully-connected-neural-network-heat-equation",
     "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
-    "authors": "hpg1164",
+    "authors": "eigenhari",
     "tags": [
       "Machine Learning",
       "python",

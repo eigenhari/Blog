@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "🥳        Blog        💻 | @hpg1164",
+  "title": "🥳        Blog        💻 | @eigenhari",
   "tagline": "You can find me writing about tech, programming, and littlebit weird things in mathematics.",
   "favicon": "img/star.jpg",
   "url": "https://hariprasadgajuel.com.np",

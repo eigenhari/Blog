@@ -93,6 +93,17 @@
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "content": "content---fully-connected-neural-network-heat-equation-2-a-4-342"
   },
+  "/Geometric controlled reduction-6a6": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---2024-10-19-2024-lie-groupace-604"
+      },
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "content": "content---geometric-controlled-reduction-261-faa"
+  },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
@@ -118,6 +129,19 @@
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "__props": "__props---tagsc-2-a-bff"
+  },
+  "/tags/geometrics-reduction-control-ec4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-geometrics-reduction-control-13-f-9a2"
+      }
+    ],
+    "__props": "__props---tags-geometrics-reduction-controlfc-6-a56"
   },
   "/tags/machine-learning-eaa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -148,6 +172,19 @@
     ],
     "__props": "__props---tags-math-9-dc-54d"
   },
+  "/tags/mathematics-c97": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-geometrics-reduction-control-13-f-9a2"
+      }
+    ],
+    "__props": "__props---tags-mathematics-898-0f3"
+  },
   "/tags/matlab-505": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -160,6 +197,19 @@
       }
     ],
     "__props": "__props---tags-matlabd-27-08d"
+  },
+  "/tags/mechanics-5a4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-geometrics-reduction-control-13-f-9a2"
+      }
+    ],
+    "__props": "__props---tags-mechanics-3-e-9-f66"
   },
   "/tags/modeling-04e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -235,6 +285,19 @@
     ],
     "__props": "__props---tags-python-74-c-d9a"
   },
+  "/tags/robotics-2e1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
+    },
+    "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
+    "items": [
+      {
+        "content": "content---tags-geometrics-reduction-control-13-f-9a2"
+      }
+    ],
+    "__props": "__props---tags-roboticsd-1-e-eac"
+  },
   "/tags/turbine-871": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -281,13 +344,16 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/-417": {
+  "/-9d6": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---2024-10-19-2024-lie-group-369-dc3"
     },
     "sidebar": "sidebar---2024-10-19-2024-lie-group-814-4cf",
     "items": [
+      {
+        "content": "content---tags-geometrics-reduction-control-13-f-9a2"
+      },
       {
         "content": "content---tags-machine-learning-481-fa8"
       },
