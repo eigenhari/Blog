@@ -1,0 +1,61 @@
+{
+  "permalink": "/simulation-prosthetic-leg",
+  "source": "@site/blog/2025/2025-01-01 simulation of prosthetic leg.md",
+  "title": "Simulation of Prosthetic Leg",
+  "description": "",
+  "date": "2025-01-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Simulation",
+      "permalink": "/tags/simulation"
+    },
+    {
+      "inline": true,
+      "label": "Prosthetics",
+      "permalink": "/tags/prosthetics"
+    },
+    {
+      "inline": true,
+      "label": "Biomechanics",
+      "permalink": "/tags/biomechanics"
+    }
+  ],
+  "readingTime": 0.015,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "simulation-prosthetic-leg",
+    "title": "Simulation of Prosthetic Leg",
+    "authors": "eigenhari",
+    "tags": [
+      "Robotics",
+      "Simulation",
+      "Prosthetics",
+      "Biomechanics"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Finite State Machine",
+    "permalink": "/finite-state-machine"
+  },
+  "nextItem": {
+    "title": "Fully connected neural network for 2D transient heat equation by using PINN.",
+    "permalink": "/fully-connected-neural-network-heat-equation"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "permalink": "/finite-state-machine",
+  "source": "@site/blog/2025/2025-02-01 finite state machine.md",
+  "title": "Finite State Machine",
+  "description": "",
+  "date": "2025-02-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Control Systems",
+      "permalink": "/tags/control-systems"
+    },
+    {
+      "inline": true,
+      "label": "FSM",
+      "permalink": "/tags/fsm"
+    },
+    {
+      "inline": true,
+      "label": "Prosthetics",
+      "permalink": "/tags/prosthetics"
+    }
+  ],
+  "readingTime": 0.015,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "finite-state-machine",
+    "title": "Finite State Machine",
+    "authors": "eigenhari",
+    "tags": [
+      "Robotics",
+      "Control Systems",
+      "FSM",
+      "Prosthetics"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Impedance Control",
+    "permalink": "/impedance-control"
+  },
+  "nextItem": {
+    "title": "Simulation of Prosthetic Leg",
+    "permalink": "/simulation-prosthetic-leg"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "permalink": "/hybrid-zero-dynamics",
+  "source": "@site/blog/2025/2025-04-01 hybrid zero dynamics.md",
+  "title": "Hybrid Zero Dynamics",
+  "description": "",
+  "date": "2025-04-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Control Systems",
+      "permalink": "/tags/control-systems"
+    },
+    {
+      "inline": true,
+      "label": "HZD",
+      "permalink": "/tags/hzd"
+    },
+    {
+      "inline": true,
+      "label": "Bipedal Locomotion",
+      "permalink": "/tags/bipedal-locomotion"
+    }
+  ],
+  "readingTime": 0.015,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "hybrid-zero-dynamics",
+    "title": "Hybrid Zero Dynamics",
+    "authors": "eigenhari",
+    "tags": [
+      "Robotics",
+      "Control Systems",
+      "HZD",
+      "Bipedal Locomotion"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Comapring ball beam balance with simulation and real hardware",
+    "permalink": "/Ball and beam balance"
+  },
+  "nextItem": {
+    "title": "Impedance Control",
+    "permalink": "/impedance-control"
+  }
+}

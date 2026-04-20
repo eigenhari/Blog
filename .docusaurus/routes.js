@@ -58,6 +58,11 @@ export default [
     exact: true
   },
   {
+    path: '/finite-state-machine',
+    component: ComponentCreator('/finite-state-machine', '710'),
+    exact: true
+  },
+  {
     path: '/fully-connected-neural-network-heat-equation',
     component: ComponentCreator('/fully-connected-neural-network-heat-equation', '06e'),
     exact: true
@@ -65,6 +70,16 @@ export default [
   {
     path: '/Geometric controlled reduction',
     component: ComponentCreator('/Geometric controlled reduction', '6a6'),
+    exact: true
+  },
+  {
+    path: '/hybrid-zero-dynamics',
+    component: ComponentCreator('/hybrid-zero-dynamics', '23d'),
+    exact: true
+  },
+  {
+    path: '/impedance-control',
+    component: ComponentCreator('/impedance-control', 'd41'),
     exact: true
   },
   {
@@ -78,13 +93,48 @@ export default [
     exact: true
   },
   {
+    path: '/simulation-prosthetic-leg',
+    component: ComponentCreator('/simulation-prosthetic-leg', '1e9'),
+    exact: true
+  },
+  {
     path: '/tags',
     component: ComponentCreator('/tags', '626'),
     exact: true
   },
   {
+    path: '/tags/biomechanics',
+    component: ComponentCreator('/tags/biomechanics', '0fc'),
+    exact: true
+  },
+  {
+    path: '/tags/bipedal-locomotion',
+    component: ComponentCreator('/tags/bipedal-locomotion', 'd2a'),
+    exact: true
+  },
+  {
+    path: '/tags/control-systems',
+    component: ComponentCreator('/tags/control-systems', '28e'),
+    exact: true
+  },
+  {
+    path: '/tags/fsm',
+    component: ComponentCreator('/tags/fsm', '40c'),
+    exact: true
+  },
+  {
     path: '/tags/geometrics-reduction-control',
     component: ComponentCreator('/tags/geometrics-reduction-control', 'ec4'),
+    exact: true
+  },
+  {
+    path: '/tags/hzd',
+    component: ComponentCreator('/tags/hzd', 'd93'),
+    exact: true
+  },
+  {
+    path: '/tags/impedance-control',
+    component: ComponentCreator('/tags/impedance-control', '343'),
     exact: true
   },
   {
@@ -133,13 +183,23 @@ export default [
     exact: true
   },
   {
+    path: '/tags/prosthetics',
+    component: ComponentCreator('/tags/prosthetics', '521'),
+    exact: true
+  },
+  {
     path: '/tags/python',
     component: ComponentCreator('/tags/python', 'adc'),
     exact: true
   },
   {
     path: '/tags/robotics',
-    component: ComponentCreator('/tags/robotics', '2e1'),
+    component: ComponentCreator('/tags/robotics', '4a4'),
+    exact: true
+  },
+  {
+    path: '/tags/simulation',
+    component: ComponentCreator('/tags/simulation', 'a38'),
     exact: true
   },
   {
@@ -178,7 +238,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '9d6'),
+    component: ComponentCreator('/', 'f56'),
     exact: true
   },
   {

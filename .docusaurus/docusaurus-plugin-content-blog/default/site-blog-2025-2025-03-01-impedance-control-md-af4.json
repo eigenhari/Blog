@@ -1,0 +1,61 @@
+{
+  "permalink": "/impedance-control",
+  "source": "@site/blog/2025/2025-03-01 impedance control.md",
+  "title": "Impedance Control",
+  "description": "",
+  "date": "2025-03-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Robotics",
+      "permalink": "/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "Control Systems",
+      "permalink": "/tags/control-systems"
+    },
+    {
+      "inline": true,
+      "label": "Impedance Control",
+      "permalink": "/tags/impedance-control"
+    },
+    {
+      "inline": true,
+      "label": "Prosthetics",
+      "permalink": "/tags/prosthetics"
+    }
+  ],
+  "readingTime": 0.015,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hari Prasad Gajurel",
+      "title": "control system | Machine Learning |  Robotics |3D CAD Designer",
+      "url": "https://github.com/eigenhari",
+      "imageURL": "https://github.com/eigenhari/eigenhari.github.io/raw/main/assets/images/hari.JPG",
+      "key": "eigenhari",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "impedance-control",
+    "title": "Impedance Control",
+    "authors": "eigenhari",
+    "tags": [
+      "Robotics",
+      "Control Systems",
+      "Impedance Control",
+      "Prosthetics"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Hybrid Zero Dynamics",
+    "permalink": "/hybrid-zero-dynamics"
+  },
+  "nextItem": {
+    "title": "Finite State Machine",
+    "permalink": "/finite-state-machine"
+  }
+}
