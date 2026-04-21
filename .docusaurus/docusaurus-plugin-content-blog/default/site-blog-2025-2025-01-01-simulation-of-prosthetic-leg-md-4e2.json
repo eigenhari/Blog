@@ -1,8 +1,8 @@
 {
   "permalink": "/simulation-prosthetic-leg",
   "source": "@site/blog/2025/2025-01-01 simulation of prosthetic leg.md",
-  "title": "Simulation of Prosthetic Leg",
-  "description": "",
+  "title": "Simulation of Prosthetic Leg in ROS2",
+  "description": "Project Overview",
   "date": "2025-01-01T00:00:00.000Z",
   "tags": [
     {
@@ -26,8 +26,8 @@
       "permalink": "/tags/biomechanics"
     }
   ],
-  "readingTime": 0.015,
-  "hasTruncateMarker": true,
+  "readingTime": 2.64,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Hari Prasad Gajurel",
@@ -40,7 +40,7 @@
   ],
   "frontMatter": {
     "slug": "simulation-prosthetic-leg",
-    "title": "Simulation of Prosthetic Leg",
+    "title": "Simulation of Prosthetic Leg in ROS2",
     "authors": "eigenhari",
     "tags": [
       "Robotics",
