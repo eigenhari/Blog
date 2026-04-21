@@ -56,10 +56,18 @@ First of all Gazebo world is initialized with the physics engine(gravity, ground
 ### Motor Plugin Inaitialization 
 In ROS2 their isn't motor pacakage we develop the motor package and model each motor as a DC motor with the following electrical and  mechanical parameters defined in YAML:
 
-\\\table 
+| YAML Parameter | Physical Meaning |
+|---|---|
+| **motor_nominal_voltage** | Operating voltage of the motor (Volts) |
+| **back_emf_constant** | Relates angular velocity to back-EMF voltage (V·s/rad) |
+| **motor_resistance** | Armature winding resistance (Ohms) |
+| **motor_torque_constant** | Relates current to output torque (N·m/A) |
+| **moment_of_inertia** | Rotational inertia of motor rotor (kg·m²) |
+| **motor_viscous_friction** | Damping coefficient opposing rotation |
+| **encoder_ppr** | Pulses per revolution of the simulated rotary encoder |
 
 Seprate YAML files are used for each joint : Knee and ankle  allowing independent tuning of both joints. Parameters can be changed at runtime using ROS Dynamics via rqt without restating the simulation:
 \\\\ include simulation of configuration 
 
-When the controller node starts, it beggins publishing FLoat64 torque commands to the effort command topic for each joint and 
+When the controller node starts, it beggins publishing FLoat64 torque commands to the effort command topic for each joint and the motor plugin trecives these command  and converts thw commanded effort to simulated motor current using thr torque constant and computes back EMF form the current joint velocity 
 
