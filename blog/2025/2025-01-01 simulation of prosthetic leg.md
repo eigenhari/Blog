@@ -8,7 +8,7 @@ tags: [Robotics, Simulation, Prosthetics, Biomechanics]
 ## Project Overview
 
 ### Introduction 
-Me along with pawan shah deveploed Active Prosthestics leg simulation in Robot operating system. It provides the simulation interfaces to model, actuate and test a robotics leg system entirely inside the Gazebo physics simulator, without needing physical hardware. So this project aims to unify the  research field of prosthetic leg control by providing a common, open, and reproducing platform and make accessible for simulation-based research and algorithm development.
+Me along with pawan shah deveploped Active Prosthestics leg simulation in Robot operating system. It provides the simulation interfaces to model, actuate and test a robotics leg system entirely inside the Gazebo physics simulator, without needing physical hardware. So this project aims to unify the  research field of prosthetic leg control by providing a common, open, and reproducing platform and make accessible for simulation-based research and algorithm development.
 
 ### Project Stack
 
@@ -79,7 +79,7 @@ When the controller node starts, it beggins publishing FLoat64 torque commands t
 We use ros_control with effort controller package . The control interface type for each joint is EffortJointInteerface meaning the controller abstraction for modelling impedence or torque based controller
 
 
-////architecture
+![Control Architecture](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/leg_control.jpg)
 
 ### PID controller
 In the controller ROS2 node include in the package implements a calssic PID position controller for each joint. The control loop works as follows:
@@ -134,3 +134,46 @@ when controller computes desired ankle angle  form trajectory of FSM state then 
 
  Each IMU sensor publishes a ROS sensor msgs containning in which 3D orientation estimate as a quaterion (w, x, y,z)  derived form gyroscope integration and accelerometer correction in which gyroscope reading angular velocity and accelerometer reading linear acceleration.
  To get clean orientation estimates in the simulation we use Gazebo's built in IMU plugin which adds configurable Gaussian noise to model real sensor characteristics.
+ 
+ #### IMU in Feedback Loop
+
+ /Shank IMU
+ The shank IMU's Pitch angle(rotational about the mediolateral axis) gives the sagittal plane orientation of the shank. Combined with the ankle joint encoder angle, this allows the controller to estimate the absolute ankle angle relative to the ground not just the relative motor angle. This is critical for maintaining correct foot clearance during swing and approprite planterflexion angle during push off.
+ /Thigh IMU 
+ The thigh IMU pitch angle gives the orientation of the proximal segement. The thigh IMU pitch angle gives  the knee flexion angle independently of motor encode drift. This provides a reliable redundant measurement for knee angle.
+SO , with the help of sensor we are able to find the gait phase detection without relying solely on the load cell.
+
+
+
+
+### Load cell in Feedback System
+ #### Sensor configuration 
+ The load cell is simulated using Gazebo's bumper(contact force) plugin attached to the foot link . The bumper plugin publishes contact information whenever the foot collides with the ground or other objects in the simulation world. A python script include in the package subscribes to the raw bumper topic, extracts the relevent channels, and republishes them to clean ROS topics.
+
+| Channel | Physical Meaning |
+|---|---|
+| **fx** | Force in X direction (anterior-posterior, N) — braking/propulsion forces |
+| **fy** | Force in Y direction (mediolateral, N) — side-to-side stability forces |
+| **fz** | Force in Z direction (vertical, N) — ground reaction force (most critical) |
+| **Tx** | Torque about X axis (N·m) — ankle inversion/eversion moment |
+| **Ty** | Torque about Y axis (N·m) — ankle plantarflexion/dorsiflexion moment |
+| **Tz** | Torque about Z axis (N·m) — axial torque / rotational friction |
+| **Contact Positions** | 3D coordinates of foot-ground contact points |
+| **Contact Normals** | Unit vectors of surface normal at each contact point |
+
+#### Load cell in the control Feedback Loop
+
+##### Ground contact Detection 
+The most fundamental use of the laod cell is detecting when the foot touches or leaves the ground. The vertical force fz is monitired against a threshold:
+- fz > threshold -> foot contact -> stance phase -> high impedance ankle parameters
+- fz < threshold -> foot airborne -> swing phase -> low impedance, free-moving ankle 
+#### Transition Between FSM states
+The Finite State machine(FSM) walking controller uses load cell readings as primary transition triggers:
+- Early stance -> late stance : fz reaches body-wight threshold , indicating full weight acceptance
+- Late stance -> Early swing : fz drops below threshold, indicating  push-off and toe-off
+- Late swing -> Early stance: fz rises sharply, indicating heel strike
+
+In advanced implementations, the commanded ankle torque is proportional to fz(the normalized vertical ground reaction force). When fz = 0 (swing), ankle torque = 0. When fz = body weight, maximum plantarflexion assistnace torque is applied. This make to prosthesis automatically adapt to partial weight bearing .
+
+#### Logging and Monitoring
+The python load cell bridge script republishes selected channels(espically fz) to dedicated tpoics that the controller subscribes to , keeping the control piplines clean and decoupled from the raw bumper plugin output.
