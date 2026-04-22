@@ -100,3 +100,37 @@ The node subscribes to the joint state to read toics to read actual position, co
 
 
 
+## Ankle and Knee joints
+  ### Ankle joint Mechanics
+  The ankle joints connects with the  shank and foot link. It is a single axis revolute joint rotating in the sagittal plane, enabling 
+
+  .Plantarflexion: pointing the toes downward (positive torque in convection) 
+  . Dorsiflexion: Lifting the toes upward(negative torque)
+  Normal human ankle biomechanics require approximately 5 degree of dorsiflexion and 20 degree of plantarfelxion and we designed to meet or exceed these range.
+
+### Ankle's Role in the Gait cycle
+The ankle is the most critical joint in prosthetic locomotion from an energy perspective. During normal gait, the ankle perform nearly 80% of the positive mechanical work during the stance phase. In the FSM controller, the ankle machine has four phases:
+
+| Gait State | Ankle Behavior |
+|---|---|
+| **Early Stance (e_stance)** | Foot flat on ground. Ankle held at near-neutral angle with moderate stiffness. Absorbs impact energy. |
+| **Late Stance (l_stance)** | Body weight shifts forward. Ankle plantarflexes progressively. High stiffness + damping for push-off. |
+| **Early Swing (e_swing)** | Foot leaves ground. Ankle dorsiflexes to toe clearance angle. Low impedance for free motion. |
+| **Late Swing (l_swing)** | Leg swings forward. Ankle repositions to heel-strike angle. Moderate stiffness to prepare for landing. |
+
+In the simulation, the anke moves like this 
+when controller computes desired ankle angle  form trajectory of FSM state then PID law converts angle error + velocity to a torque command and the torque command is published to ankle command topic as Float64 and ros control passes torque to Gazebo physics engine via effort interface and Gazebo physics engine applies torque to ankle joint , causing angular acceleration and New joint angle and velocity are returned via joint state and completing the feedback loop
+
+
+////Remain Knee joint 
+
+
+
+
+## Feedback System: 
+ ### IMU Sensors in Feedback System
+ #### Sensor Configuration 
+ The simulation model include 2 Inertial Measurement Units(IMU) one mount on the shank segement which measures shank segement orientation and angular velocity  critical for ankle and knee angle estimation  and one on the thigh segemnt which measures thigh/socket orientaion used for total leg  orientation and hip kinematics reference .In the URDF, each IMU is defined as a Gazebo sensor plugin the publishes sensor msgs.
+
+ Each IMU sensor publishes a ROS sensor msgs containning in which 3D orientation estimate as a quaterion (w, x, y,z)  derived form gyroscope integration and accelerometer correction in which gyroscope reading angular velocity and accelerometer reading linear acceleration.
+ To get clean orientation estimates in the simulation we use Gazebo's built in IMU plugin which adds configurable Gaussian noise to model real sensor characteristics.
