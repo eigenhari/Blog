@@ -69,5 +69,34 @@ In ROS2 their isn't motor pacakage we develop the motor package and model each m
 Seprate YAML files are used for each joint : Knee and ankle  allowing independent tuning of both joints. Parameters can be changed at runtime using ROS Dynamics via rqt without restating the simulation:
 \\\\ include simulation of configuration 
 
-When the controller node starts, it beggins publishing FLoat64 torque commands to the effort command topic for each joint and the motor plugin trecives these command  and converts thw commanded effort to simulated motor current using thr torque constant and computes back EMF form the current joint velocity 
+When the controller node starts, it beggins publishing FLoat64 torque commands to the effort command topic for each joint and the motor plugin trecives these command  and converts thw commanded effort to simulated motor current using thr torque constant and computes back EMF form the current joint velocity and simulate the motor electrical eqution: V = IR +K_e*omega and updates angular acceleration using Newton's second law: tau_t net = J*alpha and we can obtain advance joint position and velocity in the physics simulation at each time step and publish updated motor joint states like (positions, velocity, effort)back to ROS2 topics
+
+
+
+## Torque Control
+
+### Effort Based control Architecture
+We use ros_control with effort controller package . The control interface type for each joint is EffortJointInteerface meaning the controller abstraction for modelling impedence or torque based controller
+
+
+////architecture
+
+### PID controller
+In the controller ROS2 node include in the package implements a calssic PID position controller for each joint. The control loop works as follows:
+
+**PID Control Law**
+
+$$
+\tau = K_p (\theta_{\text{desired}} - \theta_{\text{actual}}) + K_d \frac{d}{dt}(\theta_{\text{desired}} - \theta_{\text{actual}}) + K_i \int (\theta_{\text{desired}} - \theta_{\text{actual}}) dt
+$$
+
+**Where:**
+- $\tau$ = commanded torque
+- $\theta$ = joint angle
+- $K_p$ = proportional gain
+- $K_i$ = integral gain
+- $K_d$ = derivative gain
+The node subscribes to the joint state to read toics to read actual position, computes the error against  a desired trajectory, and publishes Float64 torque commands to each joints command topic:
+
+
 
