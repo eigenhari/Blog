@@ -6,6 +6,7 @@ authors:
 tags: [Robotics, Simulation, Prosthetics, Biomechanics]
 ---
 ## Project Overview
+![simulation overview](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/Overall%20leg%20.jpg)
 
 ### Introduction 
 Me along with pawan shah deveploped Active Prosthestics leg simulation in Robot operating system. It provides the simulation interfaces to model, actuate and test a robotics leg system entirely inside the Gazebo physics simulator, without needing physical hardware. So this project aims to unify the  research field of prosthetic leg control by providing a common, open, and reproducing platform and make accessible for simulation-based research and algorithm development.
@@ -25,7 +26,7 @@ Me along with pawan shah deveploped Active Prosthestics leg simulation in Robot 
 | **Actuators** | 2 motors: osl_knee, osl_ankle (DC motor simulation) |
 
 
-///image 
+/// riviz image  of leg
 
 ## Physical Hardware Model
 
@@ -48,7 +49,7 @@ The joint connecting these links have two degree of Freedom :
 ```bash
   ros2lunch oslsim main.lunch control =true
 ```
-\\\image of Run 
+![Run in simulation](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/leg_daigram_simulation.jpg)
 
 
 First of all Gazebo world is initialized with the physics engine(gravity, ground plane) and the URDF model is loaded into Gazebo via robot description parameter and ros2 control spawner loads the controller configuration form YAML for both joints after that gazebo_ros motor plugin is inirialized for knee and ankle joints then IMU sensors are activated and begin publishing orinetation data and load cell activate and after that If control = true, the controller node starts and begins publishing jont commmands.
@@ -67,7 +68,8 @@ In ROS2 their isn't motor pacakage we develop the motor package and model each m
 | **encoder_ppr** | Pulses per revolution of the simulated rotary encoder |
 
 Seprate YAML files are used for each joint : Knee and ankle  allowing independent tuning of both joints. Parameters can be changed at runtime using ROS Dynamics via rqt without restating the simulation:
-\\\\ include simulation of configuration 
+![Motor configuration](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/dyn_reconf%20(1).gif)
+
 
 When the controller node starts, it beggins publishing FLoat64 torque commands to the effort command topic for each joint and the motor plugin trecives these command  and converts thw commanded effort to simulated motor current using thr torque constant and computes back EMF form the current joint velocity and simulate the motor electrical eqution: V = IR +K_e*omega and updates angular acceleration using Newton's second law: tau_t net = J*alpha and we can obtain advance joint position and velocity in the physics simulation at each time step and publish updated motor joint states like (positions, velocity, effort)back to ROS2 topics
 
@@ -97,6 +99,9 @@ $$
 - $K_i$ = integral gain
 - $K_d$ = derivative gain
 The node subscribes to the joint state to read toics to read actual position, computes the error against  a desired trajectory, and publishes Float64 torque commands to each joints command topic:
+
+![PID gif](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/PID.gif)
+
 
 
 
@@ -143,6 +148,10 @@ when controller computes desired ankle angle  form trajectory of FSM state then 
  The thigh IMU pitch angle gives the orientation of the proximal segement. The thigh IMU pitch angle gives  the knee flexion angle independently of motor encode drift. This provides a reliable redundant measurement for knee angle.
 SO , with the help of sensor we are able to find the gait phase detection without relying solely on the load cell.
 
+![IMU gif](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/IMU.gif)
+
+
+
 
 
 
@@ -177,3 +186,6 @@ In advanced implementations, the commanded ankle torque is proportional to fz(th
 
 #### Logging and Monitoring
 The python load cell bridge script republishes selected channels(espically fz) to dedicated tpoics that the controller subscribes to , keeping the control piplines clean and decoupled from the raw bumper plugin output.
+
+
+![Load cell gif](https://raw.githubusercontent.com/eigenhari/Legged-Robotics/main/leg_control/photo%20and%20gif/Loadcell.gif)
